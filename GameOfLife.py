@@ -20,7 +20,7 @@ def count_live_neighbours(grid, x, y):
     rows, cols = len(grid), len(grid[0])
     directions = [
         (-1, -1), (-1, 0), (-1, 1),
-        (0, -1),         (0, 0),
+        (0, -1),         (0, 1),
         (1, -1), (1, 0), (1, 1)
     ]
     count = 0
