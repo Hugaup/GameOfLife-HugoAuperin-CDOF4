@@ -16,14 +16,20 @@ You can install Python from the [official Python website](https://www.python.org
 
 A step-by-step series of instructions to get a development environment running:
 
-1. Clone the repository to your local machine: git clone https://github.com/Hugaup/GameOfLife-HugoAuperin-CDOF4.git
+1. Clone the repository to your local machine: 
+```bash
+git clone https://github.com/Hugaup/GameOfLife-HugoAuperin-CDOF4.git
+```
 
+2. Navigate to the project directory:
+```bash
+cd GameOfLife-HugoAuperin-CDOF4
+```
 
-2. Navigate to the project directory: cd GameOfLife-HugoAuperin-CDOF4
-
-
-3. Run the Python script: python game_of_life.py
-
+3. Run the Python script: 
+```bash
+python game_of_life.py
+```
 
 End with running the script and observing the console-based game in action.
 
