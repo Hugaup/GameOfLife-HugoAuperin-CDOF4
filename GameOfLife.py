@@ -31,7 +31,7 @@ def count_live_neighbours(grid, x, y):
     return count
 
 def update_grid(grid):
-    """Update the grid based Conway's Game of Life rules."""
+    """Update the grid based on Conway's Game of Life rules."""
     rows, cols = len(grid), len(grid[0])
     new_grid = create_grid(rows, cols)
 
