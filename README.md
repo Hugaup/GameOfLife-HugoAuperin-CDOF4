@@ -35,11 +35,11 @@ End with running the script and observing the console-based game in action.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system.
+You can then directly exectue the program and observe the console
 
 ### Break down into end-to-end tests
 
-Explain what these tests test and why: Example: Test if the grid updates correctly after one iteration.
+Check that the game actually updates correctly after each generation
 
 ### And coding style tests
 

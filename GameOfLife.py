@@ -57,12 +57,14 @@ def update_grid(grid):
 def main():
     rows, cols = 20, 40  # Dimensions of the grid
     grid = create_grid(rows, cols, randomise=True) # Create a random grid
+    count=0
 
     try:
-        while True:
+        while (count<1000):
             print_grid(grid)
             grid = update_grid(grid)
             time.sleep(0.5)  # Pause for a moment to observe the updates
+            count+=1
     except KeyboardInterrupt:
         print("\nGame stopped.")
 
