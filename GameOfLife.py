@@ -20,7 +20,7 @@ def count_live_neighbours(grid, x, y):
     rows, cols = len(grid), len(grid[0])
     directions = [
         (-1, -1), (-1, 0), (-1, 1),
-        (0, -1),         (0, 1),
+        (0, -1),         (0, 0),
         (1, -1), (1, 0), (1, 1)
     ]
     count = 0
@@ -31,7 +31,7 @@ def count_live_neighbours(grid, x, y):
     return count
 
 def update_grid(grid):
-    """Update the grid based on Conway's Game of Life rules."""
+    """Update the grid based Conway's Game of Life rules."""
     rows, cols = len(grid), len(grid[0])
     new_grid = create_grid(rows, cols)
 
@@ -56,7 +56,7 @@ def update_grid(grid):
 
 def main():
     rows, cols = 20, 40  # Dimensions of the grid
-    grid = create_grid(rows, cols, randomise=True)  # Create a random initial grid
+    grid = create_grid(rows, cols)
 
     try:
         while True:
