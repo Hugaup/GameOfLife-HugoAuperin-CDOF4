@@ -35,7 +35,7 @@ End with running the script and observing the console-based game in action.
 
 ## Running the tests
 
-You can then directly exectue the program and observe the console
+You can then directly exectue the program and observe the console to see if it works
 
 ### Break down into end-to-end tests
 
